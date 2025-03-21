@@ -8,5 +8,11 @@
     },
     "permissions": [
       "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "js": ["content.js"]
+      }
     ]
   }
